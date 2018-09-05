@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'day1';
   urlSite= window.location.href;
+  protocol=window.location.protocol;
 }
